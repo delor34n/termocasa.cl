@@ -1,0 +1,84 @@
+hr.star-contact {
+    margin: 25px auto 30px;
+    padding: 0;
+    max-width: 250px;
+    border: 0;
+    border-top: solid 5px;
+    text-align: center;
+}
+
+hr.star-contact:after {
+    content: "\f005";
+    display: inline-block;
+    position: relative;
+    top: -.8em;
+    padding: 0 .25em;
+    font-family: FontAwesome;
+    font-size: 2em;
+}
+
+hr.star-contact {
+    border-color: #2c3e50;
+}
+
+hr.star-contact:after {
+    color: #2c3e50;
+    background-color: #A4A4A4;
+}
+
+.just-star {
+    margin: 25px auto -30px;
+    padding: 0;
+    max-width: 250px;
+    border: 0;
+    text-align: center;
+}
+
+.just-star {
+    border-color: #fff;
+}
+
+.just-star:after {
+    display: inline-block;
+    position: relative;
+    top: -.7em;
+    padding: 0 .25em;
+    font-family: FontAwesome;
+    font-size: 4em !important;
+}
+
+.just-star:after {
+    background:rgba(142,76,22,0.0) !important;
+}
+
+section.contacto {
+    color: #000;
+    background: #000 !important;
+}
+
+
+.transparent-image {
+    background-color: #8E4C16 !important;
+    background:rgb(142,76,22) !important;  
+    background: transparent\9 !important;  
+    background:rgba(142,76,22,0.7) !important;
+    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#66000000,endColorstr=#66000000);  
+    zoom: 1;  
+}
+
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+    color: #8E4C16 !important;
+}
+
+#about{
+	background-color: #FFFFFF !important;
+    background:rgb(230,230,230) !important;  
+    background: transparent\9 !important;  
+    background:rgba(230,230,230,0.6) !important;
+    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#FFFFFF,endColorstr=#C1C1C1);  
+    zoom: 1;
+}
+#map {
+	height:250px;
+	margin-top: 50px;
+}
